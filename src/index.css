@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-cinema-bg text-cinema-text; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-cinema-card rounded-2xl p-5 shadow-xl shadow-black/20; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium bg-cinema-accent text-black hover:opacity-90 transition; }
+.input { @apply w-full rounded-xl bg-black/30 border border-white/10 px-4 py-2 outline-none focus:border-cinema-accent; }
+.link { @apply text-cinema-accent hover:underline; }
+.badge { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-semibold; }
